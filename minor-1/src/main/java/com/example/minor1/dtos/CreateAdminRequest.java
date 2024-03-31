@@ -11,8 +11,10 @@ import lombok.*;
 @Builder
 public class CreateAdminRequest {
 
+
     @NotBlank
     private String name;
+    private String age;
 
     @NotBlank
     private String email;
